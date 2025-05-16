@@ -1,3 +1,7 @@
+#include "Cliente.h"
+#include "ContaBancaria.h"
+#include <iostream>
+
 int main() {
     // Criação dos clientes
     Cliente cliente1("Ana", "111.111.111-11");
@@ -19,7 +23,7 @@ int main() {
     conta1.transferir(300.0, conta2, conta3);
 
     // Exibição dos saldos finais
-    cout << endl;
+    std::cout << std::endl;
     conta1.exibirInformacoes();
     conta2.exibirInformacoes();
     conta3.exibirInformacoes();

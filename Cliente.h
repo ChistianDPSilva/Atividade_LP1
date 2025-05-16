@@ -9,6 +9,7 @@ class Cliente {
         std::string cpf;
 
     public:
+        Cliente() : nome(""), cpf(""){}
         Cliente(std::string nome, std::string cpf);
         std::string getNome();
         std::string getCpf();

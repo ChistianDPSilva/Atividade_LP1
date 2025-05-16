@@ -5,8 +5,8 @@
 class ContaBancaria{
     private:
         int numero;
-        double saldo;
         Cliente titular;
+        double saldo;
 
     public:
         ContaBancaria(int numero, Cliente titular, double saldo = 0.0);
