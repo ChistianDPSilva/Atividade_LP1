@@ -2,6 +2,8 @@
 #include "ContaBancaria.h"
 #include <iostream>
 
+
+//Copiei o exemplo que o professor deixou no Docs
 int main() {
     // Criação dos clientes
     Cliente cliente1("Ana", "111.111.111-11");

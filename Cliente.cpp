@@ -1,6 +1,6 @@
 #include "Cliente.h"
 
-
+//Constructor para inicializar nome e cpf decentemente
 Cliente::Cliente(std::string nome, std::string cpf){
     this->nome = nome;
     this->cpf = cpf;
